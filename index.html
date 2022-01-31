@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="icon" href="public/favicon.ico" />
+
+    <!-- CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <title>UChicago KTP</title>
+    <!-- Font -->
+    <style>
+      @font-face {
+        font-family: OpenSans;
+        src: url("public/OpenSans-Regular.ttf");
+      }
+      body {
+        font-family: OpenSans;
+      }
+      .card:hover {
+        transform: scale(1.05);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-md sticky-top navbar-dark shadow-lg"
+      style="background-color: #1d3f59"
+    >
+      <div class="container">
+        <a class="text-white navbar-brand mx-3 fs-3" href="/">KθΠ</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="nav-links collapse navbar-collapse justify-content-end fs-6"
+          id="navbarCollapse"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item mx-3">
+              <a href="/#mission" class="nav-link text-white">About</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a href="/rush" class="nav-link text-white">Rush</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a href="/members" class="nav-link text-white">Members</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a href="/careers" class="nav-link text-white">Careers</a>
+            </li>
+            <li class="nav-item ml-3">
+              <a href="/contact" class="nav-link text-white">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <div
+      style="
+        background-image: url('public/images/mansueto.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        min-height: 70vh;
+      "
+      class="text-center text-white"
+    >
+      <h1 class="pt-5 fw-bold px-1" style="font-size: 5rem">KAPPA THETA PI</h1>
+      <h2>
+        Professional Technology Fraternity<br />
+        at The University of Chicago
+      </h2>
+    </div>
+
+    <!-- About -->
+    <div class="container-fluid" style="background-color: #f0f8ff">
+      <div class="row mb-3 mb-md-5 mx-1 mx-md-5 mt-0 pt-3 pt-md-5">
+        <div
+          class="mb-3 fw-bold fs-2 text-center"
+          style="color: #1d3f59"
+          id="mission"
+        >
+          Our Mission
+        </div>
+        <div class="px-lg-5">
+          We are the University of Chicago chapter of Kappa Theta Pi, the
+          country’s first professional technology fraternity. We seek to build
+          an active community of students with a shared interest in technology.
+          Additionally, we provide our members with a forum for expanding their
+          technical skills, professional, and social development. We seek
+          further to foster alumni relationships and network with corporations
+          as well as serving our vibrant local community here in Hyde Park.
+        </div>
+      </div>
+      <div class="mx-1 mx-md-5">
+        <div class="carousel slide w-75 mx-auto" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="public/images/crossover.jpg"
+                class="d-block w-100"
+                alt="crossover"
+              />
+            </div>
+          </div>
+          <a class="carousel-control-prev" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </a>
+          <a class="carousel-control-next" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="row my-3 my-md-5 mx-1 mx-md-5">
+        <div
+          class="section-header mb-3 fw-bold fs-2 text-center"
+          style="color: #1d3f59"
+          id="letter"
+        >
+          Letter From the President
+        </div>
+        <div class="col-lg-6 px-lg-5">
+          <div class="mb-3">
+            Welcome to KTP! On behalf of our colony, I am excited to introduce
+            you to our fraternity.
+          </div>
+          <div class="mb-3">
+            Kappa Theta Pi is the nation’s first technology fraternity, open to
+            anyone who is interested in tech. We are built on 5 main pillars:
+            technical advancement, academic support, professional development,
+            alumni connections, and social growth. From workshops, committees
+            and projects, we offer many opportunities for members, regardless of
+            technical ability, to learn and develop the skills necessary to
+            succeed in today’s tech landscape. We are a culture that fosters
+            intellectual curiosity, mentorship, and growth.
+          </div>
+          <div class="mb-3">
+            Not only do we pride ourselves with our growing network and
+            professional opportunities, we are also a tight-knit group of
+            technologists. With our big-little system and social events, members
+            can bond with each other and make lifelong friendships. Even more
+            exciting, as our fraternity grows, you have the chance to shape a
+            dynamic culture and make an impact that transcends your 4 years
+            here.
+          </div>
+          <div class="mb-3">
+            When our E-Board established this colony in the middle of the
+            pandemic, it was certainly challenging but ultimately paid off. Our
+            colony grew to 25 members of different majors, backgrounds, and
+            interests. Outside of KTP, we are a community of RSO and student
+            leaders, research assistants, TAs, and entrepreneurs.
+            Professionally, we have members pursuing software engineering,
+            product management, data science, finance, and entrepreneurship.
+            There is no shortage of achievement here.
+          </div>
+          <div class="mb-3 mb-md-0">
+            In KTP, we celebrate our diversity and come together with a common
+            passion for technology. During rush, we do not discriminate against
+            race, ethnicity, gender, sexual orientation, or background. We
+            encourage everyone to bring their full authentic selves to the
+            fraternity. Whether you come for the professional and technical
+            opportunities or looking for a fun, inclusive community on campus,
+            we hope that you see yourself thrive here.
+          </div>
+        </div>
+        <div class="col-lg-6 px-lg-5">
+          <img
+            src="public/images/headshots/CameronLowry.jpg"
+            class="d-block w-75 mb-4 px-5"
+          />
+          <div class="mb-3">
+            It is my pleasure to serve as KTP’s president, and I appreciate your
+            interest in our fraternity. You can find more information about our
+            rush process and brotherhood here on this website. Please don’t
+            hesitate to reach out to any one of us on the E-Board with any
+            questions you may have!
+          </div>
+          <div>All the best,<br />Cameron Lowry<br />President, 2021</div>
+        </div>
+      </div>
+
+      <div class="row mt-3 mt-md-5 mx-md-5 mb-0 pb-3 pb-md-5">
+        <div
+          class="section-header mb-3 fw-bold fs-2 text-center"
+          style="color: #1d3f59"
+          id="pillars"
+        >
+          Pillars
+        </div>
+        <div class="card-group mb-md-4">
+          <div class="card mx-4 border border-5 rounded">
+            <div class="card-body">
+              <h4 class="card-title text-center mb-3">Technical Advancement</h4>
+              <div class="card-text">
+                KTP provides a platform for members to solidify their technical
+                skills in various areas. We accomplish this through technical
+                workshops led by our board and active members, collaborating on
+                projects in different committees as well as speaker series from
+                employers and faculty members.
+              </div>
+            </div>
+          </div>
+          <div class="card mx-4 border border-5 rounded">
+            <div class="card-body">
+              <h4 class="card-title text-center mb-3">
+                Professional Development
+              </h4>
+              <div class="card-text">
+                We offer our members opportunities to take their professional
+                careers to the next level via resume and LinkedIn workshops,
+                technical interview preparations, mentorship and general advice
+                for succeeding in the tech ecosystem. We are proud to have
+                active members working in product management, data science,
+                quantitative finance, and software engineering.
+              </div>
+            </div>
+          </div>
+          <div class="card mx-4 border border-5 rounded">
+            <div class="card-body">
+              <h4 class="card-title text-center mb-3">Academic Support</h4>
+              <div class="card-text">
+                Our organization aims to foster a spirit of academic excellence
+                and collaboration across the board. We encourage our members to
+                help one another through common classes and extracurricular
+                activities. We know we have some of the most brilliant tech
+                minds on campus who are a terrific resource to take advantage
+                of.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-group">
+          <div class="card mx-4 border border-5 rounded">
+            <div class="card-body">
+              <h4 class="card-title text-center mb-3">Alumni Connection</h4>
+              <div class="card-text">
+                Connecting with UChicago alumni working in tech is vital to our
+                mission. We seek to foster relationships with our alumni working
+                at large tech giants, startups, fintech firms, investment
+                banking and other areas.
+              </div>
+            </div>
+          </div>
+          <div class="card mx-4 border border-5 rounded">
+            <div class="card-body">
+              <h4 class="card-title text-center mb-3">Social Growth</h4>
+              <div class="card-text">
+                Our KTP members are not just higher achievers. The students you
+                meet will be some of your closest friends and advisors
+                throughout college and beyond. We have a variety of social
+                events, such as late evening bonding at the Promontory point,
+                etc.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid py-3" style="background-color: #1d3f59">
+      <div class="row text-center mb-3">
+        <div class="col d-inline-block">
+          <a
+            href="https://www.facebook.com/groups/1560686410803798"
+            class="fa fa-facebook-square me-3 fs-5 text-decoration-none"
+            style="color: white"
+          ></a>
+          <a
+            href="https://www.instagram.com/uchicagoktp/"
+            class="fa fa-instagram fs-5 text-decoration-none"
+            style="color: white"
+          ></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="text-white text-center">
+          Copyright 2021. KTP at UChicago.
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap Stuff -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
