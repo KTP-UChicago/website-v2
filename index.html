@@ -55,6 +55,11 @@
       .nav-link:hover {
         color: rgb(201, 201, 201) !important;
       }
+      @media only screen and (min-width: 992px) {
+        .background-fixed {
+          background-attachment: fixed;
+        }
+      }
     </style>
   </head>
   <body>
@@ -111,11 +116,10 @@
         background-image: url('public/images/mansueto.png');
         background-repeat: no-repeat;
         background-size: cover;
-        background-attachment: fixed;
         background-position: center;
         min-height: 70vh;
       "
-      class="text-center text-white"
+      class="text-center text-white background-fixed"
     >
       <div
         class="pt-5 fw-bold px-1"
