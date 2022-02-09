@@ -60,6 +60,11 @@
           background-attachment: fixed;
         }
       }
+      @media only screen and (max-width: 767px) {
+        .nav-mission {
+          display: none;
+        }
+      }
     </style>
   </head>
   <body>
@@ -84,7 +89,7 @@
           id="navbarCollapse"
         >
           <ul class="navbar-nav">
-            <li class="nav-item mx-3">
+            <li class="nav-item mx-3 nav-mission">
               <a href="/website-v2/#mission" class="nav-link">About</a>
             </li>
             <li class="nav-item mx-3">
