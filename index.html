@@ -46,9 +46,7 @@
       body {
         font-family: OpenSans;
       }
-      .card:hover {
-        transform: scale(1.05);
-      }
+
       .nav-link {
         color: white !important;
       }
@@ -58,6 +56,9 @@
       @media only screen and (min-width: 992px) {
         .background-fixed {
           background-attachment: fixed;
+        }
+        .card:hover {
+          transform: scale(1.05);
         }
       }
       @media only screen and (max-width: 767px) {
@@ -74,7 +75,12 @@
       style="background-color: #1d3f59"
     >
       <div class="container">
-        <a class="text-white navbar-brand mx-3 fs-3" href="/website-v2">KθΠ</a>
+        <img
+          src="public/images/logo.png"
+          class="navbar-brand mx-3"
+          style="width: 60px"
+          href="/website-v2"
+        />
         <button
           class="navbar-toggler"
           type="button"
@@ -120,16 +126,10 @@
       "
       class="text-center text-white background-fixed"
     >
-      <div
-        class="pt-5 fw-bold px-1"
-        style="font-size: 5rem; text-shadow: 2px 2px 4px #606060"
-      >
+      <div class="pt-5 fw-bold px-1" style="font-size: 5rem">
         KAPPA THETA PI
       </div>
-      <div
-        class="fw-bold"
-        style="font-size: 2rem; text-shadow: 2px 2px 4px #606060"
-      >
+      <div class="fw-bold" style="font-size: 2rem">
         Professional Technology Fraternity<br />
         at The University of Chicago
       </div>
@@ -197,7 +197,20 @@
           </a>
         </div>
       </div>
-
+      <div class="row my-3 my-md-5 mx-1 mx-md-5">
+        <div
+          class="mb-3 fw-bold fs-2 text-center"
+          style="color: #1d3f59; margin-top: -75px; padding-top: 75px"
+          id="mission"
+        >
+          What We Do
+        </div>
+        <div class="px-lg-5">
+          We are essentially a community of technology-oriented individuals. We
+          hold chapter meetings, professional tech-related events, social
+          events, workshops, and more!
+        </div>
+      </div>
       <div class="row my-3 my-md-5 mx-1 mx-md-5">
         <div
           class="mb-3 fw-bold fs-2 text-center"
@@ -275,7 +288,10 @@
           Pillars
         </div>
         <div class="card-group mb-sm-4">
-          <div class="card mx-4 border rounded">
+          <div
+            class="card mx-4 border border-3 rounded"
+            style="border-color: #6fc381 !important"
+          >
             <div class="card-body">
               <h4 class="card-title text-center mb-3">Technical Advancement</h4>
               <div class="card-text">
@@ -287,7 +303,10 @@
               </div>
             </div>
           </div>
-          <div class="card mx-4 border rounded">
+          <div
+            class="card mx-4 border border-3 rounded"
+            style="border-color: #6fc381 !important"
+          >
             <div class="card-body">
               <h4 class="card-title text-center mb-3">
                 Professional Development
@@ -302,7 +321,10 @@
               </div>
             </div>
           </div>
-          <div class="card mx-4 border rounded">
+          <div
+            class="card mx-4 border border-3 rounded"
+            style="border-color: #6fc381 !important"
+          >
             <div class="card-body">
               <h4 class="card-title text-center mb-3">Academic Support</h4>
               <div class="card-text">
@@ -317,7 +339,10 @@
           </div>
         </div>
         <div class="card-group">
-          <div class="card mx-4 border rounded">
+          <div
+            class="card mx-4 border border-3 rounded"
+            style="border-color: #6fc381 !important"
+          >
             <div class="card-body">
               <h4 class="card-title text-center mb-3">Alumni Connection</h4>
               <div class="card-text">
@@ -328,7 +353,10 @@
               </div>
             </div>
           </div>
-          <div class="card mx-4 border rounded">
+          <div
+            class="card mx-4 border border-3 rounded"
+            style="border-color: #6fc381 !important"
+          >
             <div class="card-body">
               <h4 class="card-title text-center mb-3">Social Growth</h4>
               <div class="card-text">
